@@ -134,5 +134,5 @@ STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')
 
 STATICFILES_DIRS = [
     BASE_DIR / "story3/static",
-    BASE_DIR / "story1/static"
+    BASE_DIR / "story1/static",
 ]
