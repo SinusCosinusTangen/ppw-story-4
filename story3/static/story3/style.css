@@ -56,17 +56,17 @@ td {
 }
 
 #kiri {
-    background: url("static/icons/int.jpg");
+    background: url("icons/int.jpg");
     margin-right: 10px;
 }
 
 #tengah {
-    background: url("static/icons/bm.jpg");
+    background: url("icons/bm.jpg");
     margin-right: 10px;
 }
 
 #kanan {
-    background: url("static/icons/cr.jpg");
+    background: url("icons/cr.jpg");
 }
 
 .depan {
@@ -118,19 +118,19 @@ td {
 }
 
 .riding {
-    background: url("static/icons/riding.jpg");
+    background: url("icons/riding.jpg");
 }
 
 .traveling {
-    background: url("static/icons/traveling.jpg");
+    background: url("icons/traveling.jpg");
 }
 
 .eating {
-    background: url("static/icons/eating.jpg");
+    background: url("icons/eating.jpg");
 }
 
 .song {
-    background: url("static/icons/song.jpg");
+    background: url("icons/song.jpg");
 }
 
 .my-row {
