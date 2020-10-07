@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'story3'
+    'story3',
+    'story1'
 ]
 
 MIDDLEWARE = [
@@ -133,4 +134,5 @@ STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')
 
 STATICFILES_DIRS = [
     BASE_DIR / "story3/static",
+    BASE_DIR / "story1/static"
 ]
