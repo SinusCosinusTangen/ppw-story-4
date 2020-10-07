@@ -1,2 +1,2 @@
 migrate: bash python manage.py migrate
-web: gunicorn my_app.wsgi
+web: gunicorn story4.wsgi
