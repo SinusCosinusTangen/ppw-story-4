@@ -1,8 +1,192 @@
 h1 {
+    left: 205px;
+}
+
+a {
+    color: white;
+}
+
+table {
+    margin: auto;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 50px;
-    font-weight: 500;
-    color: chocolate;
-    margin-top: 100px;
+}
+
+td {
+    align: center;
+}
+
+.nav {
+    width: 100%;
+}
+
+.name {
+    font-size: 3vw;
+    margin-left: 20px;
+}
+
+.identity {
+    font-size: 2vw;
+    margin-left: 20px;
+}
+
+.profile{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+    background-color: #C4C4C4;
+    max-width: 99%;
+}
+
+.prof-pic {
+    border-radius: 50%;
+    margin: 10px;
+    width: 193px;
+    max-height: 193px;
+}
+
+.prof-col {
+    max-width: 20%;
+}
+
+.bawah {
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 99%;
+}
+
+#kiri {
+    background: url("int.jpg");
+    margin-right: 10px;
+}
+
+#tengah {
+    background: url("bm.jpg");
+    margin-right: 10px;
+}
+
+#kanan {
+    background: url("cr.jpg");
+}
+
+.depan {
+    min-height: 442px;
+    margin-bottom: 10px;
+}
+
+.bottom-right {
+    font-size: 48px;
+    position: absolute;
+    color: white;
+    bottom: 8px;
+    right: 16px;
+}
+
+.wrapper::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.two {
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #C4C4C4;
+    color: black;
+    text-align: center;
+}
+
+.contact {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.foto {
+    width: 261px;
+    height: 100%;
+    margin: 0;
+}
+
+.riding {
+    background: url("riding.jpg");
+}
+
+.traveling {
+    background: url("traveling.jpg");
+}
+
+.eating {
+    background: url("eating.jpg");
+}
+
+.song {
+    background: url("song.jpg");
+}
+
+.my-row {
+    background-color: #C4C4C4;
+    margin-bottom: 20px;
+    height: 155px;
+}
+
+.judul {
+    font-size: 2.4vw;
+    font-weight: bold;
+}
+
+.boutme {
+    background-color: #C4C4C4;
+}
+
+.row-kiri {
+    float: left;
+    width: 50%;
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.row-kanan {
+    margin-left: 10px;
+    min-height: 619.1px;
+}
+
+.education {
+    background: url("edu.jpg");
+    color: white;
+}
+
+.skills {
+    background: url(skill.jpg);
+    color: white;
+}
+
+.bout-me {
+    background: url(boutme.jpg);
+    color: white;
+}
+
+.row-tiga {
+    height: fit-content;
+    background: none;
+}
+
+.list {
+    font-size: 24px;
+}
+
+.credits {
+    height: fit-content;
+    margin: 10px;
+    font-size: 2vw;
 }
