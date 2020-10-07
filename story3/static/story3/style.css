@@ -162,17 +162,17 @@ td {
 }
 
 .education {
-    background: url("static/icons/edu.jpg");
+    background: url("icons/edu.jpg");
     color: white;
 }
 
 .skills {
-    background: url("static/icons/skill.jpg");
+    background: url("icons/skill.jpg");
     color: white;
 }
 
 .bout-me {
-    background: url("static/icons/boutme.jpg");
+    background: url("icons/boutme.jpg");
     color: white;
 }
 
