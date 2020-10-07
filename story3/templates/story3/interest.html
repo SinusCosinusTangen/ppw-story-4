@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    {% load static %}
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="{% static 'story3/style.css' %}"/>
+        <title>Interest</title>
+    </head>
+
+    <body id="interest">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light nav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="http://story4-james.herokuapp.com/index.html/">Home</a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Interest</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="http://story4-james.herokuapp.com/aboutme.html/">About Me</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="http://story4-james.herokuapp.com/temp.html/">Activity Gallery</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="http://story4-james.herokuapp.com/credits.html/">Credits</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="d-flex flex-column">
+            <div class="d-flex flex-row my-row">
+                <div class="p-2 foto">
+                    <img src="{% static 'story3/images/riding.jpg' %}" class="img-fluid" alt="responsive image">
+                </div>
+                <div class="d-flex flex-column">
+                    <div class="p-2 judul">Riding</div>
+                    <div class="p-2 keterangan">I love riding, especially when i'm sad.</div>
+                </div>
+            </div>
+
+            <div class="d-flex flex-row my-row justify-content-between">
+                <div class="d-flex flex-column">
+                    <div class="p-2 judul">Traveling</div>
+                    <div class="p-2 keterangan">I love traveling with minimum budget.</div>
+                </div>
+                <div class="p-2 foto traveling img-fluid" alt="responsive image"></div>
+            </div>
+
+            <div class="d-flex flex-row my-row">
+                <div class="p-2 foto eating"></div>
+                <div class="d-flex flex-column">
+                    <div class="p-2 judul">Eating</div>
+                    <div class="p-2 keterangan">I love food, especially Indonesian Cuisine.</div>
+                </div>
+            </div>
+
+            <div class="d-flex flex-row my-row justify-content-between">
+                <div class="d-flex flex-column">
+                    <div class="p-2 judul">Listening mellow song</div>
+                    <div class="p-2 keterangan">well, I'm a sadboy.</div>
+                </div>
+                <div class="p-2 foto song"></div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <table>
+                <tr>
+                    <td colspan="3">Find me at:</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="contact">
+                            <a href="https://www.instagram.com/james_frederix/">
+                                <img class="contact" src="{% static 'story4/icons/ig.jpg' %}"/>
+                            </a>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="contact">
+                            <a href="https://www.twitter.com/james_frederix/">
+                                <img class="contact" src="{% static 'story4/icons/twt.jpg' %}"/>
+                            </a>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="contact">
+                            <a href="https://id.linkedin.com/in/james-frederix-rolianto-bb1100193">
+                                <img class="contact" src="{% static 'story4/icons/linkedin.jpg' %}"/>
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </body>
+</html>
