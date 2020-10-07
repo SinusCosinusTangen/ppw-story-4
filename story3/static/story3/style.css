@@ -56,7 +56,7 @@ td {
 }
 
 #kiri {
-    background: url("{% static 'icons/int.jpg' %}");
+    background: url("icons/int.jpg");
     margin-right: 10px;
 }
 
