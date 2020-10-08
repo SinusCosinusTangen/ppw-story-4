@@ -52,42 +52,27 @@
             </div>
           </div>
 
-
-          <div class="footer">
-            <table>
-                <tr>
-                    <td colspan="3">Find me at:</td>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="contact">
-                            <a href="https://www.instagram.com/james_frederix/">
-                                <img class="contact" src="{% static 'story3/icons/ig.jpg' %}"/>
-                            </a>
-                        </div>
-                    </td>
-
-                    <td>
-                        <div class="contact">
-                            <a href="https://www.twitter.com/james_frederix/">
-                                <img class="contact" src="{% static 'story3/icons/twt.jpg' %}"/>
-                            </a>
-                        </div>
-                    </td>
-
-                    <td>
-                        <div class="contact">
-                            <a href="https://id.linkedin.com/in/james-frederix-rolianto-bb1100193">
-                                <img class="contact" src="{% static 'story3/icons/linkedin.jpg' %}"/>
-                            </a>
-                        </div>
-                    </td>
-                </tr>
-            </table>
-        </div>
+          <!--#include file="footer.html" -->
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+        </script>
+        <script> 
+            $(function(){
+                $("#header").load("header.html"); 
+                $("#footer").load("footer.html"); 
+            });
+        </script> 
+        {% include 'footer.html' %}
     </body>
+
+    <div id="header"></div>
+    <!--Remaining section-->
+    <div id="footer"></div>
 </html>
