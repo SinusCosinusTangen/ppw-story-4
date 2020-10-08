@@ -24,19 +24,19 @@
                         <a class="nav-link" href="http://story4-james.herokuapp.com/">Home</a>
                     </li>
 
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Interest</a>
+                    <li class="nav-item {% if request.resolver_match.view_name == 'interest'%}active{% endif %}">
+                        <a class="nav-link" href="http://story4-james.herokuapp.com/interest/">Interest</a>
                     </li>
 
-                    <li class="nav-item">
+                    <li class="nav-item {% if request.resolver_match.view_name == 'aboutme'%}active{% endif %}">
                         <a class="nav-link" href="http://story4-james.herokuapp.com/aboutme/">About Me</a>
                     </li>
 
-                    <li class="nav-item">
+                    <li class="nav-item {% if request.resolver_match.view_name == 'gallery'%}active{% endif %}">
                         <a class="nav-link" href="http://story4-james.herokuapp.com/gallery/">Activity Gallery</a>
                     </li>
 
-                    <li class="nav-item">
+                    <li class="nav-item {% if request.resolver_match.view_name == 'credits'%}active{% endif %}">
                         <a class="nav-link" href="http://story4-james.herokuapp.com/credits/">Credits</a>
                     </li>
 
