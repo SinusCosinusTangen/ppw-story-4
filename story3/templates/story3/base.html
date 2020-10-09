@@ -20,29 +20,31 @@
 
             <div class="collapse navbar-collapse" id="navv">
                 <ul class="navbar-nav ml-auto">
+                    {% with url_name=request.resolver_match.url_name %}
                     <li class="nav-item">
                         <a class="nav-link" href="http://story4-james.herokuapp.com/">Home</a>
                     </li>
 
-                    <li class="nav-item">
+                    <li class="nav-item {% if url_name == 'interest' %}active{% endif %}">
                         <a class="nav-link" href="http://story4-james.herokuapp.com/interest/">Interest</a>
                     </li>
 
-                    <li class="nav-item">
+                    <li class="nav-item {% if url_name == 'aboutme' %}active{% endif %}">
                         <a class="nav-link" href="http://story4-james.herokuapp.com/aboutme/">About Me</a>
                     </li>
 
-                    <li class="nav-item">
+                    <li class="nav-item {% if url_name == 'gallery' %}active{% endif %}">
                         <a class="nav-link" href="http://story4-james.herokuapp.com/gallery/">Activity Gallery</a>
                     </li>
 
-                    <li class="nav-item">
+                    <li class="nav-item {% if url_name == 'credits' %}active{% endif %}">
                         <a class="nav-link" href="http://story4-james.herokuapp.com/credits/">Credits</a>
                     </li>
 
                     <li class="nav-item">
                         <a class="nav-link" href="http://story4-james.herokuapp.com/story1/story1">Story 1</a>
                     </li>
+                    {% endwith %}
                 </ul>
             </div>
         </div>
