@@ -25,6 +25,6 @@ img {
 
 .column {
     float: left;
-    max-width: 70%;
+    width: 70%;
 }
 
