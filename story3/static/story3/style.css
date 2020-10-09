@@ -58,15 +58,18 @@ td {
 #kiri {
     background: url("icons/int.jpg");
     margin-right: 10px;
+    min-height: 300px;
 }
 
 #tengah {
     background: url("icons/bm.jpg");
     margin-right: 10px;
+    min-height: 300px;
 }
 
 #kanan {
     background: url("icons/cr.jpg");
+    min-height: 300px;
 }
 
 .depan {
